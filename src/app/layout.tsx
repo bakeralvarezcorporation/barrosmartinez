@@ -11,7 +11,6 @@ import { CursorContextProvider } from './ui/motion/CustomCursorContext';
 import CustomCursor from './ui/motion/CustomCursor';
 import { getSiteInfo } from './lib/wordpress';
 
-import ChatwayDesktop from './ui/components/ChatWay';
 
 const inter = Inter({ subsets: ['latin'] });
 const siteInfo = await getSiteInfo();
@@ -42,10 +41,9 @@ export default function RootLayout({
                 <Navigation />
               </div>
               <main className="flex-grow">
-                <WhatsAppButton phone="50769177402" />
+                <WhatsAppButton phone="50763933743" />
                 {children}
               </main>
-              <ChatwayDesktop />
               <Footer />
             </div>
           </CursorContextProvider>

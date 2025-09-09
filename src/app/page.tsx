@@ -28,7 +28,7 @@ const Home: React.FC = () => {
               Empresas Offshore y Fundaciones de Interés Privado en Panamá y
               otras jurisdicciones.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <div className="flex flex-col sm:flex-row justify-center gap-8 md:gap-4">
               <AnimatedButton>
                 <Link
                   href="/servicios"

@@ -25,7 +25,7 @@ export default function Nosotros() {
               <div className="lg:w-1/2">
                 <div className="relative h-96 w-full rounded-xl overflow-hidden">
                   <Image
-                    src="/our-team.jpg"
+                    src="https://bakerandalvarez.site/abogadosasociadosmartinezbarros/wp-content/uploads/sites/3/2025/09/nosotros-scaled.jpg"
                     alt="Nuestra Misión"
                     fill
                     className="object-cover"
