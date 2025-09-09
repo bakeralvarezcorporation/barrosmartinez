@@ -28,12 +28,12 @@ const Navigation: React.FC = () => {
       title: 'Servicios',
       url: '/servicios',
       object_slug: 'services',
-      children: [
+      /* children: [
         { ID: 21, title: 'Derecho comercial', url: '/servicios/derecho-comercial', object_slug: 'derecho-comercial' },
         { ID: 22, title: 'Servicios fiduciarios', url: '/servicios/servicios-fiduciarios', object_slug: 'servicios-fiduciarios' },
         { ID: 23, title: 'Asesoría de inversiones', url: '/servicios/asesoria-de-inversiones', object_slug: 'asesoria-de-inversiones' },
         { ID: 24, title: 'Estructuras internacionales', url: '/servicios/estructuras-internacionales', object_slug: 'estructuras-internacionales' },
-      ],
+      ], */
     },
     /* { ID: 4, title: 'Galería de Imágenes', url: '/galeria', object_slug: 'galeria' },
     {
