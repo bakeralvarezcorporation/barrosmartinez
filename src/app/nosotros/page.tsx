@@ -53,7 +53,7 @@ export default function Nosotros() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-white mb-4">Nuestros Pilares Fundamentales</h2>
               <p className="text-xl text-white max-w-3xl mx-auto">
-                Los valores que han guiado nuestra práctica jurídica por más de 30 años
+                Los valores que han guiado nuestra práctica jurídica por varios años
               </p>
             </div>
 
