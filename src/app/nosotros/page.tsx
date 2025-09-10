@@ -23,7 +23,7 @@ export default function Nosotros() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row items-center gap-12">
-              <div className="lg:w-1/2">
+              <div className="hidden md:block lg:w-1/2">
                 <div className="relative h-96 w-full rounded-xl overflow-hidden">
                   <Image
                     src="https://bakerandalvarez.site/abogadosasociadosmartinezbarros/wp-content/uploads/sites/3/2025/09/nosotros-scaled.jpg"
