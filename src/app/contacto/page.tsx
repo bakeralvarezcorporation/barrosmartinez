@@ -35,7 +35,7 @@ const Contacto: React.FC = () => {
       const form = e.target as HTMLFormElement;
       
       // Opción 1: Usar FormSubmit (recomendado)
-      form.action = 'https://formsubmit.co/bakeralvarezcorporation@gmail.com';
+      form.action = 'https://formsubmit.co/bufete.letradosyarquitectos@gmail.com';
       form.method = 'POST';
       
       // Agregar campos ocultos para configuración
@@ -243,7 +243,7 @@ const Contacto: React.FC = () => {
                       </div>
                       <div>
                         <h3 className="font-medium text-gray-900">Dirección</h3>
-                        <p className="text-gray-600">PH  Plaza 2000, frente a Plaza New York</p>
+                        <p className="text-gray-600">Edificio Magna Corp. Calle 51 Este Y, C. Manuel María Icaza, Panamá</p>
                       </div>
                     </div>
 
@@ -267,7 +267,7 @@ const Contacto: React.FC = () => {
                       </div>
                       <div>
                         <h3 className="font-medium text-gray-900">Email</h3>
-                        <p className="text-gray-600">bufete.letradosyarquitectos@gmail.com</p>
+                        <p className="text-gray-600">abogadosempresasoffshore@gmail.com</p>
                       </div>
                     </div>
 
@@ -279,7 +279,7 @@ const Contacto: React.FC = () => {
                       </div>
                       <div>
                         <h3 className="font-medium text-gray-900">Horario de atención</h3>
-                        <p className="text-gray-600">Lunes a Viernes: 9:00 - 18:00</p>
+                        <p className="text-gray-600">Lunes a Viernes: 8:30 - 17:30</p>
                       </div>
                     </div>
                   </div>
