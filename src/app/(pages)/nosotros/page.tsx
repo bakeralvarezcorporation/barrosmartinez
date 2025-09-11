@@ -5,12 +5,13 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 import * as motion from "motion/react-client";
-import HeroSection from '../ui/components/HeroSection';
-import AnimatedButton from '../ui/motion/AnimatedButton';
+import HeroSection from '../../ui/components/HeroSection';
+import AnimatedButton from '../../ui/motion/AnimatedButton';
 
 export const metadata: Metadata = {
-  title: 'Abogados Asociados Martínez Barros - Excelencia Jurídica con Tradición y Visión',
+  title: 'Nosotros | Abogados Asociados Martínez Barros - Excelencia Jurídica con Tradición y Visión',
   description: 'Bufete con más de tres años de experiencia ofreciendo soluciones legales integrales. Combinamos la tradición jurídica con enfoques innovadores para clientes nacionales e internacionales.',
+  keywords: ["Nosotros", "Acerca de nosotros", "Quienes somos", "Nuestra historia"]
 };
 
 export default function Nosotros() {
