@@ -3,10 +3,10 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
-import Pagination from '../ui/components/Paginacion';
-import { getPosts, getCategories, getSiteInfo } from '../lib/wordpress';
-import { WPPost } from '../interfaces/wordpressApi';
-import HeroSection from '../ui/components/HeroSection';
+import Pagination from '../../ui/components/Paginacion';
+import { getPosts, getCategories, getSiteInfo } from '../../lib/wordpress';
+import { WPPost } from '../../interfaces/wordpressApi';
+import HeroSection from '../../ui/components/HeroSection';
 
 import * as motion from "motion/react-client";
 

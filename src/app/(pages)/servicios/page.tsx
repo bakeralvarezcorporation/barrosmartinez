@@ -1,9 +1,9 @@
 // app/servicios/page.tsx
 import React from 'react';
 import { Metadata } from 'next';
-import ServicesSection from '../ui/components/ServicesSection';
-import { getSiteInfo } from '../lib/wordpress';
-import HeroSection from '../ui/components/HeroSection';
+import ServicesSection from '../../ui/components/ServicesSection';
+import { getSiteInfo } from '../../lib/wordpress';
+import HeroSection from '../../ui/components/HeroSection';
 
 import * as motion from "motion/react-client";
 
