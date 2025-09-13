@@ -13,7 +13,8 @@ import * as motion from "motion/react-client";
 const siteInfo = await getSiteInfo();
 export const metadata: Metadata = {
   title: `Blog - ${siteInfo.name}`,
-  description: 'Artículos sobre desarrollo web, diseño y marketing digital',
+  description: 'Blog legal de Martinez Barros: Artículos sobre jurisprudencia, novedades legislativas, análisis de casos y consejos prácticos en diversas áreas del derecho.',
+  keywords: ["artículos legales", "novedades legislativas", "análisis jurisprudencial", "consejos legales", "actualidad derecho", "blog jurídico"]
 };
 
 export default async function Blog(props: { searchParams?: Promise<{ page?: string }> }) {

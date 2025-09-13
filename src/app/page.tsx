@@ -2,6 +2,15 @@
 import Link from 'next/link';
 import * as motion from 'motion/react-client';
 import AnimatedButton from './ui/motion/AnimatedButton';
+import { Metadata } from 'next';
+import { getSiteInfo } from './lib/wordpress';
+
+const siteInfo = await getSiteInfo();
+export const metadata: Metadata = {
+  title: `Inicio - ${siteInfo.name}`,
+  description: 'Abogados Asociados Martinez Barros: Bufete con amplia trayectoria en derecho civil, mercantil y laboral. Soluciones legales efectivas con enfoque personalizado.',
+  keywords: ["martinez barros", "derecho civil", "derecho mercantil", "derecho laboral", "abogados litigantes", "representación legal"]
+};
 
 const Home: React.FC = () => {
   return (

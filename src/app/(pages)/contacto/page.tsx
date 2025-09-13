@@ -4,11 +4,14 @@ import HeroSection from '../../ui/components/HeroSection';
 
 import * as motion from "motion/react-client";
 import FormSubmit from '@/app/ui/components/ContactoComponentes/FormSubmit';
+import { getSiteInfo } from '@/app/lib/wordpress';
+
+const siteInfo = await getSiteInfo();
 
 export const metadata: Metadata = {
-  title: 'Abogados Asociados Martínez Barros - Excelencia Jurídica con Tradición y Visión',
-  description: 'Bufete con más de tres años de experiencia ofreciendo soluciones legales integrales. Combinamos la tradición jurídica con enfoques innovadores para clientes nacionales e internacionales.',
-  keywords: ["Contacto", "Contáctanos", "Dejanos un mensaje"]
+  title: `Contacto - ${siteInfo.name}`,
+  description: 'Contacte a Abogados Asociados Martinez Barros. Oficinas principales Panamá. Atención personalizada y soluciones legales a su medida.',
+  keywords: ["contacto abogados", "oficinas madrid", "consulta legal", "asesoría jurídica", "ubicación bufete", "soporte legal"]
 };
 
 const Contacto: React.FC = () => {

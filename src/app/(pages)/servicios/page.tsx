@@ -10,7 +10,8 @@ import * as motion from "motion/react-client";
 const siteInfo = await getSiteInfo();
 export const metadata: Metadata = {
   title: `Servicios - ${siteInfo.name}`,
-  description: 'Nuestros servicios de diseño y desarrollo web',
+  description: 'Servicios legales de Martinez Barros: Litigación civil y mercantil, derecho laboral, familia, sucesiones y asesoría contractual. Representación legal efectiva.',
+  keywords: ["litigación civil", "derecho familiar", "sucesiones", "derecho contractual", "representación legal", "servicios jurídicos"]
 };
 
 export default async function Servicios() {

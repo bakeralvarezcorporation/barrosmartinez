@@ -11,7 +11,8 @@ import * as motion from "motion/react-client";
 const siteInfo = await getSiteInfo();
 export const metadata: Metadata = {
   title: `Galería - ${siteInfo.name}`,
-  description: 'Explora nuestra galería de imágenes y proyectos realizados',
+  description: 'Galería de Abogados Asociados Martinez Barros: Instalaciones, equipo legal y participación en eventos jurídicos nacionales e internacionales.',
+  keywords: ["instalaciones bufete", "eventos jurídicos", "equipo abogados", "participación conferencias", "galería bufete", "imágenes oficinas"]
 };
 
 // Obtener todas las galerías de Envira
