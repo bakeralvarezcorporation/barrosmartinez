@@ -68,7 +68,8 @@ export default async function BlogPost({ params }: Props) {
   const categories = post._embedded?.['wp:term']?.[0]?.filter(term => term.taxonomy === 'category') || [];
   
   // Obtener autor
-  const author = post._embedded?.author?.[0];
+  const author = post._embedded?.author?.[1];
+  console.log("Imprimiendo Autor: ", author)
   
   // Obtener imagen destacada
   const featuredImage = post._embedded?.['wp:featuredmedia']?.[0];
@@ -100,7 +101,7 @@ export default async function BlogPost({ params }: Props) {
               <div className="flex items-center mr-6 mb-2">
                 <div className="relative w-8 h-8 rounded-full overflow-hidden mr-2">
                   <Image
-                    src={author.avatar_urls['96'] || '/avatar-placeholder.png'}
+                    src={author.avatar_urls['96'] || '/placeholder-blog.png'}
                     alt={author.name}
                     fill
                     className="object-cover"
@@ -156,7 +157,7 @@ export default async function BlogPost({ params }: Props) {
             <div className="flex items-center mb-4">
               <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
                 <Image
-                  src={author.avatar_urls['96'] || '/avatar-placeholder.png'}
+                  src={author.avatar_urls['96'] || '/placeholder-blog.png'}
                   alt={author.name}
                   fill
                   className="object-cover"
