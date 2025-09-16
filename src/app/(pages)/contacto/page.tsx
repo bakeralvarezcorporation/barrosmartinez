@@ -76,16 +76,7 @@ const Contacto: React.FC = () => {
                 <div className="bg-white rounded-xl shadow-md p-6 mb-8">
                   <h2 className="text-2xl font-semibold mb-4 text-[#010101] ">Nuestra ubicación</h2>
                   <div className="rounded-lg overflow-hidden h-80">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2467.229997875298!2d2.1674030251520073!3d41.38676064603542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEdificio%20El%20Triangle%2C%20Plaza%20de%20Catalu%C3%B1a%201%2C%204%20piso.%20Eixample%2008002%2C%20Barcelona.%20Espa%C3%B1a.!5e1!3m2!1sen!2sdo!4v1756823499219!5m2!1sen!2sdo"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      title="Ubicación de nuestra empresa"
-                    ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.15825657502!2d-79.52232599999999!3d8.981942699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca930d82d65b1%3A0x8b0eb74754dd7eba!2sABOGADOS%20ASOCIADOS%20MARTINEZ%20BARROS!5e1!3m2!1ses-419!2sdo!4v1757992056410!5m2!1ses-419!2sdo" width="600" height="450" style={{border: 0}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                   <p className="text-sm text-gray-600 mt-4">
                     Puedes visitarnos en nuestra oficina principal en el corazón de la ciudad.
