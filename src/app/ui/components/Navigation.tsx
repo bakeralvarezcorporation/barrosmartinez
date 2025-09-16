@@ -35,17 +35,17 @@ const Navigation: React.FC = () => {
         { ID: 24, title: 'Estructuras internacionales', url: '/servicios/estructuras-internacionales', object_slug: 'estructuras-internacionales' },
       ], */
     },
-    /* { ID: 4, title: 'Galería de Imágenes', url: '/galeria', object_slug: 'galeria' },
+    { ID: 4, title: 'Galería de Imágenes', url: '/galeria', object_slug: 'galeria' },
     {
       ID: 5,
       title: 'Publicaciones',
       url: '/blog',
       object_slug: 'blog',
-      children: [
+      /* children: [
         { ID: 51, title: 'Noticias', url: '/blog/noticias', object_slug: 'noticias' },
         { ID: 52, title: 'Artículos', url: '/blog/articulos', object_slug: 'articulos' },
-      ],
-    }, */
+      ], */
+    },
     { ID: 6, title: 'Contacto', url: '/contacto', object_slug: 'contact' },
   ];
 
