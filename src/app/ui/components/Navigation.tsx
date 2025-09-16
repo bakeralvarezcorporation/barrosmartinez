@@ -35,7 +35,7 @@ const Navigation: React.FC = () => {
         { ID: 24, title: 'Estructuras internacionales', url: '/servicios/estructuras-internacionales', object_slug: 'estructuras-internacionales' },
       ], */
     },
-    { ID: 4, title: 'Galería de Imágenes', url: '/galeria', object_slug: 'galeria' },
+   /*  { ID: 4, title: 'Galería de Imágenes', url: '/galeria', object_slug: 'galeria' }, */
     {
       ID: 5,
       title: 'Publicaciones',
